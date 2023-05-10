@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/unit_nav_graph"
+    app:startDestination="@id/storageHomeFragment">
+
+    <fragment
+        android:id="@+id/storageHomeFragment"
+        android:name="com.artemis.storageunitman.ui.fragments.StorageHomeFragment"
+        android:label="Home Unit"
+        tools:layout="@layout/fragment_storage_home">
+        <action
+            android:id="@+id/action_storageHomeFragment_to_storageMenuFragment"
+            app:destination="@id/storageMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storageMenuFragment"
+        android:name="com.artemis.storageunitman.ui.fragments.StorageMenuFragment"
+        android:label="Menu Unit"
+        tools:layout="@layout/fragment_storage_menu">
+        <action
+            android:id="@+id/action_storageMenuFragment_to_storageDetailFragment"
+            app:destination="@id/storageDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storageDetailFragment"
+        android:name="com.artemis.storageunitman.ui.fragments.StorageDetailFragment"
+        android:label="Detail Unit"
+        tools:layout="@layout/fragment_storage_detail">
+        <action
+            android:id="@+id/action_storageDetailFragment_to_storageHomeFragment"
+            app:destination="@id/storageHomeFragment" />
+        <argument
+            android:name="storageDetails"
+            app:argType="com.artemis.storageunitman.data.StorageUnitManItem" />
+    </fragment>
+</navigation>

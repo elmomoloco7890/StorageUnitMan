@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "493576237653",
+    "project_id": "storageunitman-fd2eb",
+    "storage_bucket": "storageunitman-fd2eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493576237653:android:2c13f7d113d8af0b4c9adc",
+        "android_client_info": {
+          "package_name": "com.artemis.storageunitman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493576237653-201n33b4peo70hm04iejv9il616fnc5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.artemis.storageunitman",
+            "certificate_hash": "df574c45b5ffe2fe30bbdc9b4eaed5a0b4cd4eb5"
+          }
+        },
+        {
+          "client_id": "493576237653-aqpbkk8i6lae1jq01tbn3jjv03381mti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwjQ48gJcHGZ8khCJwz2RkpbfcABwO3jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493576237653-aqpbkk8i6lae1jq01tbn3jjv03381mti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
